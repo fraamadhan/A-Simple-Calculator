@@ -1,0 +1,51 @@
+.container {
+  max-width: max-content;
+  margin: auto;
+  margin-top: 15%;
+  background-color: grey;
+  padding: 50px;
+  box-shadow: 4.4px 8.8px 8.8px hsl(0deg 0% 0% / 0.36);
+}
+h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+.subContainer {
+  margin: auto;
+  width: 300px;
+}
+label {
+  display: block;
+  float: left;
+  clear: left;
+  margin: 10px;
+}
+input {
+  float: left;
+  margin: 10px;
+  font-weight: bold;
+}
+button {
+  font-size: 20px;
+}
+.btn {
+  clear: left;
+  display: block;
+  margin: 10px;
+}
+.btn #sum {
+  margin: 5px;
+}
+.btn #sub {
+  margin: 5px;
+}
+.btn #multi {
+  margin: 5px;
+}
+.btn #div {
+  margin: 5px;
+}
+
+#result {
+  background-color: #3d8361;
+  color: white;
+}
